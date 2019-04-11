@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>txt</title>
+<body background="img4.jpg">
+ <style>
+#one:hover{float:left;
+transform:scale(1.5,1);}
+textarea{
+background-color:powderblue;
+margin-left:1200px;
+margin-top:3px;
+}
+body
+{height: 800px;
+background-size:cover;
+}
+	
+}
+.nav{ 	width:800px;
+	height:40px;
+	margin-left:40%;
+}
+.nav a{float:left;
+font-size:20px;
+color:red;
+padding:15px 15px;
+
+display:block;
+ background-color: #e5d3e1;}
+.nav a.active {
+  background-color:none;
+  color: red;
+}
+.nav a:hover{
+  background-color: #fda;
+  text-decoration: underline;
+  color: black;
+}
+
+#header
+{  	background-color:purple;
+	
+	width:100%;
+	height:55px;
+}
+</style>
+<div id="header1">
+<div id="header">
+<div class="nav">
+<caption>
+<a href="navigation.html" class="active">NAVIGATION</a>
+<a href="list1.html">LIST</a>
+<a href="form.html">FORM</a>
+</div>
+</div>
+</div><br><br>
+<img id="one" src="img6.jpg" height=200px width=200px>
+<textarea rows=30 cols=30>National Institute of Technology, Raipur (abbreviated NIT Raipur or NITRR), is a publicly funded premier engineering and research institution located in Raipur, Chhattisgarh, India. Founded in 1956 with two engineering disciplines, mining and metallurgy, the institute is one of the oldest institute in National Institutes of Technology system. It is recognized as an Institute of National Importance by the Government of India under the National Institutes of Technology Act, 2007.</textarea>
+
+</body>
+</html>

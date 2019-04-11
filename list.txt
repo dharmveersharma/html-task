@@ -1,0 +1,154 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+
+table{height:auto;width:93%;}
+table,th{border:5px solid powderblue;
+padding:2px;
+margin:50px;
+border-collapse:none;        
+font-weight:bold;
+}
+address{color:purple; font-family:verdana;font-size:20px;}
+dl,dt{color:rgb(320,40,78);
+font-family:courier;
+font-size:20px;}
+dd{color:rgb(220,160,248);
+font-family:courier;
+font-size:20px;}
+ul
+{list-style-type:square;
+
+ margin:1px;
+ padding:1px;
+ overflow:none;
+ background-color:pink;
+font-size:20px;
+}
+ol.one
+{ color:red;
+font-size:20px;
+ margin:15px;
+ padding:15px;
+}
+
+li:a{
+display:none;
+background-color:green;
+float:left;
+padding:16px;
+text-decoration:none;}
+li:hover
+{background-color:yellow;}
+</style>
+<title>practice</title>
+<body style="background-color:#112233;">
+<ul>
+<li><a href="#home" target="_blank">home</li>
+<li><a href="#news">news</li>
+<li><a href="#papers">papers</li>
+</ul>
+<table>
+<caption style="background-color:red;color:yellow;font-size:30px;">lines✈</caption>
+<colgroup>
+<col style="background-color:lightpink;">
+<col span="7" style="background-color:orange;">
+</colgroup>
+<tr >
+<th rowspan="2">line-group (mm)</th>
+<th colspan="7" >type of line</th>
+</tr>
+<tr>
+<th>a</th>
+<th>b</th>
+<th>c</th>
+<th>d</th>
+<th>e</th>
+<th>f</th>
+<th>g</th>
+</tr>
+<tr>
+<th>0.3</th>
+<th>1.2</th>
+<th>0.6</th>
+<th>0.4</th>
+<th>0.4</th>
+<th>1.2</th>
+<th>0.4</th>
+<th>0.4</th>
+</tr>
+<tr>
+<th>0.8</th>
+<th>0.8</th>
+<th>0.4</th>
+<th>0.3</th>
+<th>0.3</th>
+<th>0.8</th>
+<th>0.3</th>
+<th>0.3</th>
+</tr>
+<tr>
+<th>0.5</th>
+<th>0.5</th>
+<th>0.3</th>
+<th>0.2</th>
+<th>0.2</th>
+<th>0.5</th>
+<th>0.2</th>
+<th>0.2</th>
+</tr>
+<tr>
+<th>0.3</th>
+<th>0.3</th>
+<th>0.2</th>
+<th>0.1</th>
+<th>0.1</th>
+<th>0.3</th>
+<th>0.1</th>
+<th>0.1</th>
+</tr>
+</table>
+<br>
+
+<ol class="one">
+<li>pen</li>
+<li>pencil</li>
+<li>eraser</li>
+<li>sharpner</li>
+</ol><hr>
+<h3 style="text-decoration:overline underline;color:white">this is starting <del>wpage</del><ins>webpage</ins></h3>
+<ul style="list-style-type:square;overflow:hidden;">
+<li>pen</li>
+<li>pencil</li>
+<li>eraser</li>
+<li>sharpner</li>
+
+</ul><hr>
+<ol type="I" style="color:aqua;font-size:20px;">
+<li>pen</li>
+<li>pencil</li>
+<li>eraser</li>
+<li>sharpner</li>
+</ol><hr>
+<dl>
+<dt>pen</dt>
+<dd>-butterflow</dd>
+<dt>pencil</dt>
+<dd>-apsara</dd>
+<dt>eraser</dt>
+<dd>-apsara</dd>
+<dt>sharpner</dt>
+<dd>-natraj</dd>
+</dl><hr><hr><address>
+written by:dharmveer sharma<br>
+contact us:<u>123456</u><br>
+<div>......</div>
+INDIA
+</address>
+
+
+</head>
+</body>
+</html>

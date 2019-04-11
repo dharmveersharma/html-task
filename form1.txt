@@ -1,0 +1,41 @@
+<html>
+<head> 
+<title>start</title>
+<style>
+form{
+font-size:30px;
+color:orange;
+}
+h1{
+color:red;
+}
+input{
+font-size:30px;
+color:purple;
+}
+button{
+font-size:30px;
+}
+body{
+background-size:100% 100%;
+height=600px;
+}
+</style>
+
+<body background="img3.jpg">
+
+<h1><u>REGISTRATION FORM : TEAM TECHNOCRACY </u></h1>
+<form>
+First Name  	:     <input type="text" placeholder="enter your first name"><br><br>
+Last Name  	:     <input type="text" placeholder="enter your last name"><br><br>
+Roll no :      <input type="text" placeholder="enter your roll no."><br><br>
+E-mail  :      <input type="text" placeholder="enter your email adderss"><br><br>
+Gender:   <input type="radio"  name="z" value="male">male
+<input type="radio"  name="z" value="female">female<br><br>
+Why you want to join technocracy? :  <input type="text" placeholder="write.."><br><br>
+<button input="submit" value="submit" height="50" width="25">submit</button>
+</form>
+
+</bod
+</head>
+</html>

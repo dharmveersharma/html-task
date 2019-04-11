@@ -1,0 +1,96 @@
+﻿<!doctype html>
+<html>
+<head>
+<style>
+img{margin-left:15px;}
+img:nth-child(2)
+{	border:5px solid blue;
+	border-radius:40px;
+	
+}
+img:nth-child(4)
+{	border:5px solid blue;
+	border-radius:40px;
+}
+img:nth-child(6)
+{	border:5px solid blue;
+	border-radius:40px;
+}
+img:nth-child(1)
+{	border:5px solid green;
+	
+}
+img:nth-child(3)
+{	border:5px solid green;
+	
+}
+img:nth-child(5)
+{	border:5px solid green;
+	
+}
+img:hover
+{
+transform:scaleX(-1);
+
+}
+img:nth-child(2):hover{transform:scale(1.5,1.5);}
+img:nth-child(4):hover{transition:width 2s, height 2s,transform 1s;}
+img:nth-child(6):hover{transform:rotate(90deg);
+			}
+
+</style>
+<body>
+<div style="background-color:#123344";>
+<h1 style="color:red";><marquee>navigation task </marquee></h1>
+</div>
+<div>
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+</div>
+<div>
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+</div>
+<div>
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+</div>
+<div>
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+</div>
+<div>
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+</div>
+<div>
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+<img src="img.png" alt="Smiley face" height="220" width="220"> 
+</div>
+</body>
+
+</html>
